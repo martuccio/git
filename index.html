@@ -5,17 +5,28 @@
     <meta charset="UTF-8"> <!-- CONFIGURACION DEL LENGUAJE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- RESPONSIVO PARA QUE DISPOSITIVO -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- RESPONSIVO PARA QUE DISPOSITIVO -->
+    <link rel="stylesheet" href="./css/index.css">
     <title>HTML</title> <!-- TITULO DE LA VENTANA DEL NAVEGADOR -->
+
+    <style> /* css dentro de HTML */
+     p{
+        color:blue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     }
+
+    </style>
+
 </head>
 <body> <!-- CUERPO DE LA PAGINA WEB -->
 
     <header> <!-- ETIQUETAS SEMANTICAS DESDE HEADER A FOOTER -->
-     <h2>soy el header</h2>
+     <h2 class="centrar">soy el header</h2>
     </header>
     <nav>
        <h2>soy la nevegacion</h2>
 
-       <ul><!-- lista desordenada -->
+       <ul class="centrar"><!-- lista desordenada -->
         <li> <!-- ITEMS LIST -->
             <a href="./index.html">HOME</a> <!-- PERMITEN LA NAVEGACION -->
         </li>
@@ -30,7 +41,7 @@
     
     <main>
         
-        <H1>Etiqueta de Titulo Nivel 1</H1>
+        <h1 style="color:green; font-size:60px;">Etiqueta de Titulo Nivel 1</h1> <!-- CSS EN LINEA -->
 
         <hr>
 
@@ -38,7 +49,7 @@
             <article>
             <h3> Los alimentos</h3>
             <img src="https://media.tycsports.com/files/2023/03/24/548718/lionel-messi-antonel-roccuzzo_416x234.webp" alt="imagen de alimentacion sana">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>
+            <p id="miParrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>          
             </article>
@@ -63,10 +74,10 @@
         <hr>
 
         <section>
-            <article>
+            <article class="soloYo">
             <h3> Imagen en mi servidor</h3>
             <img src="./imagenes/lionel-messi-antonel-roccuzzo_416x234.webp" alt="imagen de leo">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>
+            <p class="centrar otroParrafo micolor"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur laborum similique eveniet odio tenetur nihil, molestiae, aliquam quo, ducimus impedit placeat. Rerum nihil obcaecati blanditiis eum temporibus corrupti quibusdam!</p>          
             </article>

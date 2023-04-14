@@ -1,0 +1,57 @@
+h2 {/* selector global */
+color: white;
+font-size: 45px;
+background-color:blue ;
+text-align: center;
+}
+
+.soloYo{/* selector de clase */
+    text-align: right;
+    color: black;
+}
+
+#miParrafo{
+    margin-top:80px;
+}
+
+h1 {
+border-top:solid 6px black; /* bordes */
+border-right:dashed 8px blueviolet;
+border-bottom:solid 10px grey;
+border-left:dotted 12px yellow;
+
+padding-top:35px;/* relleno */
+padding-right:50px;
+padding-bottom:25px;
+padding-left:200px;
+
+margin-top: 50px; /* margen */
+margin-right: 100px;
+margin-bottom:80px;
+margin-left:150px;
+}
+
+.centrar{
+    text-align:center;
+}
+
+.otroParrafo {
+    font-size:25px;
+}
+
+.micolor {
+    color:violet;
+}
+
+ul li{/* unicamente las que estan adentro de las ul */
+    list-style-type:none;
+    display:inline-block;
+    margin:15px;
+    padding:25px;
+    border:1px solid black;
+    background: goldenrod;
+}
+
+a {
+    text-decoration:none;
+ }
